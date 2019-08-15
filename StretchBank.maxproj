@@ -2,7 +2,7 @@
 	"name" : "StretchBank",
 	"version" : 1,
 	"creationdate" : 3647936895,
-	"modificationdate" : 3648124482,
+	"modificationdate" : 3648714654,
 	"viewrect" : [ 18.0, 141.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -36,17 +36,17 @@
 				"local" : 1
 			}
 ,
-			"sc.sb.ffb~.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"sc.mc.bank~.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"sc.mc.combine~.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sc.sb.ffb~.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -123,6 +123,11 @@
 		"data" : 		{
 			"stretch.json" : 			{
 				"kind" : "json",
+				"local" : 1
+			}
+,
+			"harmonics.txt" : 			{
+				"kind" : "textfile",
 				"local" : 1
 			}
 
