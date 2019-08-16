@@ -527,13 +527,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-42",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1062.0, 256.5, 181.0, 35.0 ],
-					"text" : "A, A#, B, C, C#, D, D#, E, F, F#, G, G#, A2"
+					"patching_rect" : [ 1062.0, 256.5, 181.0, 49.0 ],
+					"text" : "A, A#, B, C, C#, D, D#, E, F, F#, G, G#, A2, Minyo, Miyakobushi, Ritsu, Ryukyu"
 				}
 
 			}
@@ -4658,12 +4658,12 @@
 					"presentation_rect" : [ 1.0, 183.0, 210.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.tab[11]",
-							"parameter_mmax" : 4,
 							"parameter_shortname" : "live.tab",
 							"parameter_enum" : [ "Red", "Green", "Blue", "Luma", "Motion" ],
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 0,
+							"parameter_longname" : "live.tab[11]",
+							"parameter_mmax" : 4
 						}
 
 					}
@@ -5087,12 +5087,12 @@
 					"presentation_rect" : [ 1.0, 138.0, 210.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.tab[1]",
-							"parameter_mmax" : 4,
 							"parameter_shortname" : "live.tab",
 							"parameter_enum" : [ "Red", "Green", "Blue", "Luma", "Motion" ],
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 0,
+							"parameter_longname" : "live.tab[1]",
+							"parameter_mmax" : 4
 						}
 
 					}
@@ -5137,12 +5137,12 @@
 					"presentation_rect" : [ 1.0, 93.0, 210.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.tab[12]",
-							"parameter_mmax" : 4,
 							"parameter_shortname" : "live.tab",
 							"parameter_enum" : [ "Red", "Green", "Blue", "Luma", "Motion" ],
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 0,
+							"parameter_longname" : "live.tab[12]",
+							"parameter_mmax" : 4
 						}
 
 					}
@@ -7086,9 +7086,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-57" : [ "live.tab[11]", "live.tab", 0 ],
 			"obj-27" : [ "live.tab[12]", "live.tab", 0 ],
 			"obj-54" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-57" : [ "live.tab[11]", "live.tab", 0 ],
 			"parameterbanks" : 			{
 
 			}
