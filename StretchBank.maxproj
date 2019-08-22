@@ -2,7 +2,7 @@
 	"name" : "StretchBank",
 	"version" : 1,
 	"creationdate" : 3647936895,
-	"modificationdate" : 3648714654,
+	"modificationdate" : 3649255088,
 	"viewrect" : [ 18.0, 141.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -134,6 +134,14 @@
 		}
 ,
 		"externals" : 		{
+
+		}
+,
+		"other" : 		{
+			"OSC_DOC.rtf" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
 
 		}
 
