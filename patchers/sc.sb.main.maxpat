@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 454.0, 223.0, 1425.0, 994.0 ],
+		"rect" : [ 772.0, 138.0, 1425.0, 994.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,514 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-100",
+					"maxclass" : "newobj",
+					"numinlets" : 9,
+					"numoutlets" : 9,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "" ],
+					"patching_rect" : [ 1364.5, -68.0, 353.85714285714289, 22.0 ],
+					"text" : "sel 0 1 2 3 4 5 6 7"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-99",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1657.5, -25.0, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-98",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1622.5, -25.0, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-97",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1580.5, -25.0, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-96",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1542.5, -25.0, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-95",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1493.5, -25.0, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-94",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1447.5, -25.0, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-93",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1404.5, -25.0, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-92",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1364.5, -25.0, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-91",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1459.0, -101.0, 51.0, 22.0 ],
+					"text" : "unjoin 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-90",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "FullPacket" ],
+					"patching_rect" : [ 1459.0, -125.0, 91.0, 22.0 ],
+					"text" : "o.route /sample"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-89",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1978.0, 89.0, 54.0, 22.0 ],
+					"text" : "s #0-mix"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-88",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 733.5, 747.0, 52.0, 22.0 ],
+					"text" : "r #0-mix"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-87",
+					"maxclass" : "newobj",
+					"numinlets" : 8,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 733.5, 831.0, 141.0, 22.0 ],
+					"text" : "pack 0. 0. 0. 0. 0. 0. 0. 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-86",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 9,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 733.5, 803.0, 103.0, 22.0 ],
+					"text" : "unjoin 8"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-85",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 615.0, 869.0, 48.0, 22.0 ],
+					"text" : "set 0 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-82",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "FullPacket" ],
+					"patching_rect" : [ 733.5, 776.0, 109.0, 22.0 ],
+					"text" : "o.route /mix_levels"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-81",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1579.0, 1056.0, 72.0, 22.0 ],
+					"text" : "r #0-volume"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-63",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1870.0, 55.0, 74.0, 22.0 ],
+					"text" : "s #0-volume"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-55",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "FullPacket" ],
+					"patching_rect" : [ 1870.0, 27.0, 91.0, 22.0 ],
+					"text" : "o.route /volume"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1978.0, 55.0, 83.0, 22.0 ],
+					"text" : "s #0-to-preset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-52",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "FullPacket" ],
+					"patching_rect" : [ 1978.0, 27.0, 86.0, 22.0 ],
+					"text" : "o.route /preset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 276.0, -42.0, 81.0, 22.0 ],
+					"text" : "r #0-to-preset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 276.0, -14.0, 89.0, 22.0 ],
+					"text" : "prepend preset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 9,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "FullPacket" ],
+					"patching_rect" : [ 1718.0, 241.0, 283.0, 22.0 ],
+					"text" : "o.route /fffb0 /fffb1 /fffb2 /fffb3 /fffb4 /fffb5 /fffb6 /fffb7"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "FullPacket" ],
+					"patching_rect" : [ 1956.0, -9.0, 115.0, 22.0 ],
+					"text" : "o.route /stretchbank"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 9,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "FullPacket" ],
+					"patching_rect" : [ 1305.0, 34.0, 361.0, 22.0 ],
+					"text" : "o.route /bank0 /bank1 /bank2 /bank3 /bank4 /bank5 /bank6 /bank7"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1956.0, -38.0, 157.0, 22.0 ],
+					"text" : "sc.net.receive @type sound"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-80",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 0,
+							"revision" : 6,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-55",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 54.0, 214.0, 85.0, 22.0 ],
+									"text" : "prepend prefix"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "clear" ],
+									"patching_rect" : [ 50.0, 126.0, 51.0, 22.0 ],
+									"text" : "t b clear"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 50.0, 100.0, 58.0, 22.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "int" ],
+									"patching_rect" : [ 50.0, 183.0, 128.0, 22.0 ],
+									"text" : "conformpath max boot"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 159.0, 208.0, 22.0 ],
+									"text" : "~/synthesis-git/media/audio/serra-snd"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-63",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 46.0, 296.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-55", 0 ],
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-63", 0 ],
+									"source" : [ "obj-19", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-63", 0 ],
+									"source" : [ "obj-55", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 482.5, -1.0, 67.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p init menu"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "newobj",
@@ -250,60 +758,6 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 345.0, 661.5, 462.0, 22.0 ],
 					"text" : "jit.gl.videoplane stretchbank @transform_reset 2 @blend_enable 1 @depth_enable 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"channels" : 2,
-					"id" : "obj-223",
-					"lastchannelcount" : 2,
-					"maxclass" : "mc.live.gain~",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 1789.0, 700.0, 48.0, 136.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_shortname" : "mc.live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "mc.live.gain~[1]",
-							"parameter_mmax" : 6.0
-						}
-
-					}
-,
-					"varname" : "mc.live.gain~[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"channels" : 2,
-					"id" : "obj-222",
-					"lastchannelcount" : 2,
-					"maxclass" : "mc.live.gain~",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 1839.0, 700.0, 48.0, 136.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_shortname" : "mc.live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "mc.live.gain~",
-							"parameter_mmax" : 6.0
-						}
-
-					}
-,
-					"varname" : "mc.live.gain~"
 				}
 
 			}
@@ -3969,8 +4423,9 @@
 			}
 , 			{
 				"box" : 				{
+					"autopopulate" : 1,
 					"id" : "obj-59",
-					"items" : [ "marimba.mp3", ",", "steel_drums.mp3", ",", "bamboo_chimes.wav", ",", "cello.wav", ",", "marimba_kids.wav", ",", "wooden_chimes.wav", ",", "xylophone.wav", ",", "sci-fi.mp3", ",", "amberque.wav", ",", "dryer.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav" ],
+					"items" : [ "163503__erh__acoustic-rtkrb1-2.wav", ",", "173039__sergeeo__toy-guitar-elastic-02.wav", ",", "173045__sergeeo__toy-guitar-playing.wav", ",", "240347__zagi2__weird-marimba-loop.wav", ",", "406569__bigmanjoe__smooth-chill-hip-hop-loop.wav", ",", "amberque.wav", ",", "bamboo_chimes.wav", ",", "branchesfilter.wav", ",", "bufferthing01.wav", ",", "cello.wav", ",", "cicada.wav", ",", "colorfield_emiddiovasquez.wav", ",", "cosmosis_emiddiovasquez.wav", ",", "cricket_08-02.2-SpectralDroneMaker.wav", ",", "dronebuchla_emiddiovasquez.wav", ",", "dryer.wav", ",", "ekg_rhythm-01.wav", ",", "electric_emiddiovasquez.wav", ",", "electric_emiddiovasquez_mono.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav", ",", "gaspe_thunder-02.wav", ",", "goodcricket.wav", ",", "horn-5x_2.wav", ",", "hornmass-thing01.wav", ",", "killer_hiF_01.wav", ",", "magnitude6-1.wav", ",", "magnitude6-2.wav", ",", "marble1_emiddiovasquez.wav", ",", "marble2_emiddiovasquez.wav", ",", "marble3_emiddiovasquez.wav", ",", "marimba.mp3", ",", "marimba_kids.wav", ",", "piano-newharmonizer1.wav", ",", "sci-fi.mp3", ",", "shortwave_15.wav", ",", "shortwave_18.wav", ",", "shortwave_22.wav", ",", "sleeping shoulder_emiddio vasquez.wav", ",", "steel_drums.mp3", ",", "temporal entanglements_emiddiovasquez.wav", ",", "violin-5th_1-1.wav", ",", "violin-5th_2-1.wav", ",", "wooden_chimes.wav", ",", "xylo-pianotransition3.wav", ",", "xylophone.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3978,16 +4433,19 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1199.5, 34.0, 100.0, 22.0 ],
 					"pattrmode" : 1,
+					"prefix" : "Macintosh HD:/Users/synthesis/synthesis-git/media/audio/serra-snd/",
 					"presentation" : 1,
 					"presentation_rect" : [ 901.5, 30.0, 100.0, 22.0 ],
+					"showdotfiles" : 1,
 					"varname" : "umenu[7]"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"autopopulate" : 1,
 					"id" : "obj-60",
-					"items" : [ "marimba.mp3", ",", "steel_drums.mp3", ",", "bamboo_chimes.wav", ",", "cello.wav", ",", "marimba_kids.wav", ",", "wooden_chimes.wav", ",", "xylophone.wav", ",", "sci-fi.mp3", ",", "amberque.wav", ",", "dryer.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav" ],
+					"items" : [ "163503__erh__acoustic-rtkrb1-2.wav", ",", "173039__sergeeo__toy-guitar-elastic-02.wav", ",", "173045__sergeeo__toy-guitar-playing.wav", ",", "240347__zagi2__weird-marimba-loop.wav", ",", "406569__bigmanjoe__smooth-chill-hip-hop-loop.wav", ",", "amberque.wav", ",", "bamboo_chimes.wav", ",", "branchesfilter.wav", ",", "bufferthing01.wav", ",", "cello.wav", ",", "cicada.wav", ",", "colorfield_emiddiovasquez.wav", ",", "cosmosis_emiddiovasquez.wav", ",", "cricket_08-02.2-SpectralDroneMaker.wav", ",", "dronebuchla_emiddiovasquez.wav", ",", "dryer.wav", ",", "ekg_rhythm-01.wav", ",", "electric_emiddiovasquez.wav", ",", "electric_emiddiovasquez_mono.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav", ",", "gaspe_thunder-02.wav", ",", "goodcricket.wav", ",", "horn-5x_2.wav", ",", "hornmass-thing01.wav", ",", "killer_hiF_01.wav", ",", "magnitude6-1.wav", ",", "magnitude6-2.wav", ",", "marble1_emiddiovasquez.wav", ",", "marble2_emiddiovasquez.wav", ",", "marble3_emiddiovasquez.wav", ",", "marimba.mp3", ",", "marimba_kids.wav", ",", "piano-newharmonizer1.wav", ",", "sci-fi.mp3", ",", "shortwave_15.wav", ",", "shortwave_18.wav", ",", "shortwave_22.wav", ",", "sleeping shoulder_emiddio vasquez.wav", ",", "steel_drums.mp3", ",", "temporal entanglements_emiddiovasquez.wav", ",", "violin-5th_1-1.wav", ",", "violin-5th_2-1.wav", ",", "wooden_chimes.wav", ",", "xylo-pianotransition3.wav", ",", "xylophone.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3995,6 +4453,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1098.0, 34.0, 100.0, 22.0 ],
 					"pattrmode" : 1,
+					"prefix" : "Macintosh HD:/Users/synthesis/synthesis-git/media/audio/serra-snd/",
 					"presentation" : 1,
 					"presentation_rect" : [ 800.0, 30.0, 100.0, 22.0 ],
 					"varname" : "umenu[6]"
@@ -4003,8 +4462,9 @@
 			}
 , 			{
 				"box" : 				{
+					"autopopulate" : 1,
 					"id" : "obj-61",
-					"items" : [ "marimba.mp3", ",", "steel_drums.mp3", ",", "bamboo_chimes.wav", ",", "cello.wav", ",", "marimba_kids.wav", ",", "wooden_chimes.wav", ",", "xylophone.wav", ",", "sci-fi.mp3", ",", "amberque.wav", ",", "dryer.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav" ],
+					"items" : [ "163503__erh__acoustic-rtkrb1-2.wav", ",", "173039__sergeeo__toy-guitar-elastic-02.wav", ",", "173045__sergeeo__toy-guitar-playing.wav", ",", "240347__zagi2__weird-marimba-loop.wav", ",", "406569__bigmanjoe__smooth-chill-hip-hop-loop.wav", ",", "amberque.wav", ",", "bamboo_chimes.wav", ",", "branchesfilter.wav", ",", "bufferthing01.wav", ",", "cello.wav", ",", "cicada.wav", ",", "colorfield_emiddiovasquez.wav", ",", "cosmosis_emiddiovasquez.wav", ",", "cricket_08-02.2-SpectralDroneMaker.wav", ",", "dronebuchla_emiddiovasquez.wav", ",", "dryer.wav", ",", "ekg_rhythm-01.wav", ",", "electric_emiddiovasquez.wav", ",", "electric_emiddiovasquez_mono.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav", ",", "gaspe_thunder-02.wav", ",", "goodcricket.wav", ",", "horn-5x_2.wav", ",", "hornmass-thing01.wav", ",", "killer_hiF_01.wav", ",", "magnitude6-1.wav", ",", "magnitude6-2.wav", ",", "marble1_emiddiovasquez.wav", ",", "marble2_emiddiovasquez.wav", ",", "marble3_emiddiovasquez.wav", ",", "marimba.mp3", ",", "marimba_kids.wav", ",", "piano-newharmonizer1.wav", ",", "sci-fi.mp3", ",", "shortwave_15.wav", ",", "shortwave_18.wav", ",", "shortwave_22.wav", ",", "sleeping shoulder_emiddio vasquez.wav", ",", "steel_drums.mp3", ",", "temporal entanglements_emiddiovasquez.wav", ",", "violin-5th_1-1.wav", ",", "violin-5th_2-1.wav", ",", "wooden_chimes.wav", ",", "xylo-pianotransition3.wav", ",", "xylophone.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4012,6 +4472,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 996.0, 34.0, 100.0, 22.0 ],
 					"pattrmode" : 1,
+					"prefix" : "Macintosh HD:/Users/synthesis/synthesis-git/media/audio/serra-snd/",
 					"presentation" : 1,
 					"presentation_rect" : [ 698.0, 30.0, 100.0, 22.0 ],
 					"varname" : "umenu[5]"
@@ -4020,8 +4481,9 @@
 			}
 , 			{
 				"box" : 				{
+					"autopopulate" : 1,
 					"id" : "obj-62",
-					"items" : [ "marimba.mp3", ",", "steel_drums.mp3", ",", "bamboo_chimes.wav", ",", "cello.wav", ",", "marimba_kids.wav", ",", "wooden_chimes.wav", ",", "xylophone.wav", ",", "sci-fi.mp3", ",", "amberque.wav", ",", "dryer.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav" ],
+					"items" : [ "163503__erh__acoustic-rtkrb1-2.wav", ",", "173039__sergeeo__toy-guitar-elastic-02.wav", ",", "173045__sergeeo__toy-guitar-playing.wav", ",", "240347__zagi2__weird-marimba-loop.wav", ",", "406569__bigmanjoe__smooth-chill-hip-hop-loop.wav", ",", "amberque.wav", ",", "bamboo_chimes.wav", ",", "branchesfilter.wav", ",", "bufferthing01.wav", ",", "cello.wav", ",", "cicada.wav", ",", "colorfield_emiddiovasquez.wav", ",", "cosmosis_emiddiovasquez.wav", ",", "cricket_08-02.2-SpectralDroneMaker.wav", ",", "dronebuchla_emiddiovasquez.wav", ",", "dryer.wav", ",", "ekg_rhythm-01.wav", ",", "electric_emiddiovasquez.wav", ",", "electric_emiddiovasquez_mono.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav", ",", "gaspe_thunder-02.wav", ",", "goodcricket.wav", ",", "horn-5x_2.wav", ",", "hornmass-thing01.wav", ",", "killer_hiF_01.wav", ",", "magnitude6-1.wav", ",", "magnitude6-2.wav", ",", "marble1_emiddiovasquez.wav", ",", "marble2_emiddiovasquez.wav", ",", "marble3_emiddiovasquez.wav", ",", "marimba.mp3", ",", "marimba_kids.wav", ",", "piano-newharmonizer1.wav", ",", "sci-fi.mp3", ",", "shortwave_15.wav", ",", "shortwave_18.wav", ",", "shortwave_22.wav", ",", "sleeping shoulder_emiddio vasquez.wav", ",", "steel_drums.mp3", ",", "temporal entanglements_emiddiovasquez.wav", ",", "violin-5th_1-1.wav", ",", "violin-5th_2-1.wav", ",", "wooden_chimes.wav", ",", "xylo-pianotransition3.wav", ",", "xylophone.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4029,6 +4491,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 892.0, 34.0, 100.0, 22.0 ],
 					"pattrmode" : 1,
+					"prefix" : "Macintosh HD:/Users/synthesis/synthesis-git/media/audio/serra-snd/",
 					"presentation" : 1,
 					"presentation_rect" : [ 594.0, 30.0, 100.0, 22.0 ],
 					"varname" : "umenu[4]"
@@ -4037,8 +4500,9 @@
 			}
 , 			{
 				"box" : 				{
+					"autopopulate" : 1,
 					"id" : "obj-58",
-					"items" : [ "marimba.mp3", ",", "steel_drums.mp3", ",", "bamboo_chimes.wav", ",", "cello.wav", ",", "marimba_kids.wav", ",", "wooden_chimes.wav", ",", "xylophone.wav", ",", "sci-fi.mp3", ",", "amberque.wav", ",", "dryer.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav" ],
+					"items" : [ "163503__erh__acoustic-rtkrb1-2.wav", ",", "173039__sergeeo__toy-guitar-elastic-02.wav", ",", "173045__sergeeo__toy-guitar-playing.wav", ",", "240347__zagi2__weird-marimba-loop.wav", ",", "406569__bigmanjoe__smooth-chill-hip-hop-loop.wav", ",", "amberque.wav", ",", "bamboo_chimes.wav", ",", "branchesfilter.wav", ",", "bufferthing01.wav", ",", "cello.wav", ",", "cicada.wav", ",", "colorfield_emiddiovasquez.wav", ",", "cosmosis_emiddiovasquez.wav", ",", "cricket_08-02.2-SpectralDroneMaker.wav", ",", "dronebuchla_emiddiovasquez.wav", ",", "dryer.wav", ",", "ekg_rhythm-01.wav", ",", "electric_emiddiovasquez.wav", ",", "electric_emiddiovasquez_mono.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav", ",", "gaspe_thunder-02.wav", ",", "goodcricket.wav", ",", "horn-5x_2.wav", ",", "hornmass-thing01.wav", ",", "killer_hiF_01.wav", ",", "magnitude6-1.wav", ",", "magnitude6-2.wav", ",", "marble1_emiddiovasquez.wav", ",", "marble2_emiddiovasquez.wav", ",", "marble3_emiddiovasquez.wav", ",", "marimba.mp3", ",", "marimba_kids.wav", ",", "piano-newharmonizer1.wav", ",", "sci-fi.mp3", ",", "shortwave_15.wav", ",", "shortwave_18.wav", ",", "shortwave_22.wav", ",", "sleeping shoulder_emiddio vasquez.wav", ",", "steel_drums.mp3", ",", "temporal entanglements_emiddiovasquez.wav", ",", "violin-5th_1-1.wav", ",", "violin-5th_2-1.wav", ",", "wooden_chimes.wav", ",", "xylo-pianotransition3.wav", ",", "xylophone.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4046,6 +4510,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 790.0, 34.0, 100.0, 22.0 ],
 					"pattrmode" : 1,
+					"prefix" : "Macintosh HD:/Users/synthesis/synthesis-git/media/audio/serra-snd/",
 					"presentation" : 1,
 					"presentation_rect" : [ 901.0, 6.0, 100.0, 22.0 ],
 					"varname" : "umenu[3]"
@@ -4054,8 +4519,9 @@
 			}
 , 			{
 				"box" : 				{
+					"autopopulate" : 1,
 					"id" : "obj-57",
-					"items" : [ "marimba.mp3", ",", "steel_drums.mp3", ",", "bamboo_chimes.wav", ",", "cello.wav", ",", "marimba_kids.wav", ",", "wooden_chimes.wav", ",", "xylophone.wav", ",", "sci-fi.mp3", ",", "amberque.wav", ",", "dryer.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav" ],
+					"items" : [ "163503__erh__acoustic-rtkrb1-2.wav", ",", "173039__sergeeo__toy-guitar-elastic-02.wav", ",", "173045__sergeeo__toy-guitar-playing.wav", ",", "240347__zagi2__weird-marimba-loop.wav", ",", "406569__bigmanjoe__smooth-chill-hip-hop-loop.wav", ",", "amberque.wav", ",", "bamboo_chimes.wav", ",", "branchesfilter.wav", ",", "bufferthing01.wav", ",", "cello.wav", ",", "cicada.wav", ",", "colorfield_emiddiovasquez.wav", ",", "cosmosis_emiddiovasquez.wav", ",", "cricket_08-02.2-SpectralDroneMaker.wav", ",", "dronebuchla_emiddiovasquez.wav", ",", "dryer.wav", ",", "ekg_rhythm-01.wav", ",", "electric_emiddiovasquez.wav", ",", "electric_emiddiovasquez_mono.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav", ",", "gaspe_thunder-02.wav", ",", "goodcricket.wav", ",", "horn-5x_2.wav", ",", "hornmass-thing01.wav", ",", "killer_hiF_01.wav", ",", "magnitude6-1.wav", ",", "magnitude6-2.wav", ",", "marble1_emiddiovasquez.wav", ",", "marble2_emiddiovasquez.wav", ",", "marble3_emiddiovasquez.wav", ",", "marimba.mp3", ",", "marimba_kids.wav", ",", "piano-newharmonizer1.wav", ",", "sci-fi.mp3", ",", "shortwave_15.wav", ",", "shortwave_18.wav", ",", "shortwave_22.wav", ",", "sleeping shoulder_emiddio vasquez.wav", ",", "steel_drums.mp3", ",", "temporal entanglements_emiddiovasquez.wav", ",", "violin-5th_1-1.wav", ",", "violin-5th_2-1.wav", ",", "wooden_chimes.wav", ",", "xylo-pianotransition3.wav", ",", "xylophone.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4063,6 +4529,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 688.5, 34.0, 100.0, 22.0 ],
 					"pattrmode" : 1,
+					"prefix" : "Macintosh HD:/Users/synthesis/synthesis-git/media/audio/serra-snd/",
 					"presentation" : 1,
 					"presentation_rect" : [ 799.5, 6.0, 100.0, 22.0 ],
 					"varname" : "umenu[2]"
@@ -4071,8 +4538,9 @@
 			}
 , 			{
 				"box" : 				{
+					"autopopulate" : 1,
 					"id" : "obj-56",
-					"items" : [ "marimba.mp3", ",", "steel_drums.mp3", ",", "bamboo_chimes.wav", ",", "cello.wav", ",", "marimba_kids.wav", ",", "wooden_chimes.wav", ",", "xylophone.wav", ",", "sci-fi.mp3", ",", "amberque.wav", ",", "dryer.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav" ],
+					"items" : [ "163503__erh__acoustic-rtkrb1-2.wav", ",", "173039__sergeeo__toy-guitar-elastic-02.wav", ",", "173045__sergeeo__toy-guitar-playing.wav", ",", "240347__zagi2__weird-marimba-loop.wav", ",", "406569__bigmanjoe__smooth-chill-hip-hop-loop.wav", ",", "amberque.wav", ",", "bamboo_chimes.wav", ",", "branchesfilter.wav", ",", "bufferthing01.wav", ",", "cello.wav", ",", "cicada.wav", ",", "colorfield_emiddiovasquez.wav", ",", "cosmosis_emiddiovasquez.wav", ",", "cricket_08-02.2-SpectralDroneMaker.wav", ",", "dronebuchla_emiddiovasquez.wav", ",", "dryer.wav", ",", "ekg_rhythm-01.wav", ",", "electric_emiddiovasquez.wav", ",", "electric_emiddiovasquez_mono.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav", ",", "gaspe_thunder-02.wav", ",", "goodcricket.wav", ",", "horn-5x_2.wav", ",", "hornmass-thing01.wav", ",", "killer_hiF_01.wav", ",", "magnitude6-1.wav", ",", "magnitude6-2.wav", ",", "marble1_emiddiovasquez.wav", ",", "marble2_emiddiovasquez.wav", ",", "marble3_emiddiovasquez.wav", ",", "marimba.mp3", ",", "marimba_kids.wav", ",", "piano-newharmonizer1.wav", ",", "sci-fi.mp3", ",", "shortwave_15.wav", ",", "shortwave_18.wav", ",", "shortwave_22.wav", ",", "sleeping shoulder_emiddio vasquez.wav", ",", "steel_drums.mp3", ",", "temporal entanglements_emiddiovasquez.wav", ",", "violin-5th_1-1.wav", ",", "violin-5th_2-1.wav", ",", "wooden_chimes.wav", ",", "xylo-pianotransition3.wav", ",", "xylophone.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4080,6 +4548,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 586.5, 34.0, 100.0, 22.0 ],
 					"pattrmode" : 1,
+					"prefix" : "Macintosh HD:/Users/synthesis/synthesis-git/media/audio/serra-snd/",
 					"presentation" : 1,
 					"presentation_rect" : [ 697.5, 6.0, 100.0, 22.0 ],
 					"varname" : "umenu[1]"
@@ -4088,165 +4557,9 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-55",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "clear" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 8,
-							"minor" : 0,
-							"revision" : 6,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 657.0, 112.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-52",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "bang", "clear" ],
-									"patching_rect" : [ 50.0, 124.0, 51.0, 22.0 ],
-									"text" : "t b clear"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-51",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 50.0, 100.0, 58.0, 22.0 ],
-									"text" : "loadbang"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-50",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 181.5, 96.0, 22.0 ],
-									"text" : "prepend append"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-49",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 156.0, 583.0, 35.0 ],
-									"text" : "marimba.mp3, steel_drums.mp3, bamboo_chimes.wav, cello.wav, marimba_kids.wav, wooden_chimes.wav, xylophone.wav, sci-fi.mp3, amberque.wav, dryer.wav, elementary_wave.wav, ethereal_orch.wav"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-54",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 44.0, 263.5, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-50", 0 ],
-									"source" : [ "obj-49", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-54", 0 ],
-									"source" : [ "obj-50", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-52", 0 ],
-									"source" : [ "obj-51", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-49", 0 ],
-									"source" : [ "obj-52", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-54", 0 ],
-									"source" : [ "obj-52", 1 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 482.5, 4.0, 84.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
-					"text" : "p config menu"
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"autopopulate" : 1,
 					"id" : "obj-53",
-					"items" : [ "marimba.mp3", ",", "steel_drums.mp3", ",", "bamboo_chimes.wav", ",", "cello.wav", ",", "marimba_kids.wav", ",", "wooden_chimes.wav", ",", "xylophone.wav", ",", "sci-fi.mp3", ",", "amberque.wav", ",", "dryer.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav" ],
+					"items" : [ "163503__erh__acoustic-rtkrb1-2.wav", ",", "173039__sergeeo__toy-guitar-elastic-02.wav", ",", "173045__sergeeo__toy-guitar-playing.wav", ",", "240347__zagi2__weird-marimba-loop.wav", ",", "406569__bigmanjoe__smooth-chill-hip-hop-loop.wav", ",", "amberque.wav", ",", "bamboo_chimes.wav", ",", "branchesfilter.wav", ",", "bufferthing01.wav", ",", "cello.wav", ",", "cicada.wav", ",", "colorfield_emiddiovasquez.wav", ",", "cosmosis_emiddiovasquez.wav", ",", "cricket_08-02.2-SpectralDroneMaker.wav", ",", "dronebuchla_emiddiovasquez.wav", ",", "dryer.wav", ",", "ekg_rhythm-01.wav", ",", "electric_emiddiovasquez.wav", ",", "electric_emiddiovasquez_mono.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav", ",", "gaspe_thunder-02.wav", ",", "goodcricket.wav", ",", "horn-5x_2.wav", ",", "hornmass-thing01.wav", ",", "killer_hiF_01.wav", ",", "magnitude6-1.wav", ",", "magnitude6-2.wav", ",", "marble1_emiddiovasquez.wav", ",", "marble2_emiddiovasquez.wav", ",", "marble3_emiddiovasquez.wav", ",", "marimba.mp3", ",", "marimba_kids.wav", ",", "piano-newharmonizer1.wav", ",", "sci-fi.mp3", ",", "shortwave_15.wav", ",", "shortwave_18.wav", ",", "shortwave_22.wav", ",", "sleeping shoulder_emiddio vasquez.wav", ",", "steel_drums.mp3", ",", "temporal entanglements_emiddiovasquez.wav", ",", "violin-5th_1-1.wav", ",", "violin-5th_2-1.wav", ",", "wooden_chimes.wav", ",", "xylo-pianotransition3.wav", ",", "xylophone.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4254,6 +4567,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 482.5, 34.0, 100.0, 22.0 ],
 					"pattrmode" : 1,
+					"prefix" : "Macintosh HD:/Users/synthesis/synthesis-git/media/audio/serra-snd/",
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 6.0, 100.0, 22.0 ],
 					"varname" : "umenu"
@@ -4671,12 +4985,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 276.0, 121.0, 112.0, 22.0 ],
+					"patching_rect" : [ 276.0, 122.0, 112.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 4, 45, 358, 246 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 175, 76, 927, 848 ]
+						"storage_rect" : [ 583, 69, 1849, 1000 ]
 					}
 ,
 					"text" : "pattrstorage stretch",
@@ -4779,12 +5093,12 @@
 					"presentation_rect" : [ 19.0, 520.0, 311.0, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.tab",
 							"parameter_enum" : [ "Generate Particles", "Receive Particles" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.tab",
-							"parameter_mmax" : 1
+							"parameter_longname" : "live.tab"
 						}
 
 					}
@@ -4893,6 +5207,62 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-92", 0 ],
+					"source" : [ "obj-100", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-93", 0 ],
+					"source" : [ "obj-100", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-94", 0 ],
+					"source" : [ "obj-100", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"source" : [ "obj-100", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-96", 0 ],
+					"source" : [ "obj-100", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-97", 0 ],
+					"source" : [ "obj-100", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
+					"source" : [ "obj-100", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-99", 0 ],
+					"source" : [ "obj-100", 7 ]
 				}
 
 			}
@@ -5155,6 +5525,185 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"midpoints" : [ 1314.5, 81.0, 576.0, 81.0, 576.0, 114.0, 525.0, 114.0, 525.0, 123.0, 469.5, 123.0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"midpoints" : [ 1357.25, 81.0, 618.0, 81.0, 618.0, 120.0, 625.5, 120.0 ],
+					"source" : [ "obj-15", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"midpoints" : [ 1400.0, 81.0, 759.0, 81.0, 759.0, 123.0, 781.5, 123.0 ],
+					"source" : [ "obj-15", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"midpoints" : [ 1442.75, 81.0, 915.0, 81.0, 915.0, 123.0, 937.5, 123.0 ],
+					"source" : [ "obj-15", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"midpoints" : [ 1613.75, 81.0, 1539.0, 81.0, 1539.0, 123.0, 1561.5, 123.0 ],
+					"source" : [ "obj-15", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"midpoints" : [ 1571.0, 81.0, 1383.0, 81.0, 1383.0, 123.0, 1405.5, 123.0 ],
+					"source" : [ "obj-15", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"midpoints" : [ 1528.25, 81.0, 1242.0, 81.0, 1242.0, 120.0, 1249.5, 120.0 ],
+					"source" : [ "obj-15", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"midpoints" : [ 1485.5, 81.0, 1071.0, 81.0, 1071.0, 123.0, 1093.5, 123.0 ],
+					"source" : [ "obj-15", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"midpoints" : [ 1965.5, 21.0, 1314.5, 21.0 ],
+					"order" : 5,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"midpoints" : [ 1965.5, 228.0, 1727.5, 228.0 ],
+					"order" : 3,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"order" : 1,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"order" : 2,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-89", 0 ],
+					"order" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-90", 0 ],
+					"midpoints" : [ 1965.5, 15.0, 1941.0, 15.0, 1941.0, 9.0, 1468.5, 9.0 ],
+					"order" : 4,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"midpoints" : [ 1727.5, 294.0, 475.5, 294.0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"midpoints" : [ 1760.5, 294.0, 691.5, 294.0 ],
+					"source" : [ "obj-17", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"midpoints" : [ 1826.5, 294.0, 1123.5, 294.0 ],
+					"source" : [ "obj-17", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"midpoints" : [ 1793.5, 294.0, 907.5, 294.0 ],
+					"source" : [ "obj-17", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"midpoints" : [ 1958.5, 294.0, 1987.5, 294.0 ],
+					"source" : [ "obj-17", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"midpoints" : [ 1925.5, 294.0, 1771.5, 294.0 ],
+					"source" : [ "obj-17", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"midpoints" : [ 1892.5, 294.0, 1555.5, 294.0 ],
+					"source" : [ "obj-17", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"midpoints" : [ 1859.5, 294.0, 1339.5, 294.0 ],
+					"source" : [ "obj-17", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-202", 8 ],
 					"source" : [ "obj-184", 7 ]
 				}
@@ -5397,17 +5946,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-223", 0 ],
-					"order" : 0,
-					"source" : [ "obj-35", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-43", 1 ],
 					"midpoints" : [ 1561.5, 297.0, 2180.5, 297.0 ],
-					"order" : 1,
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -5479,15 +6019,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-184", 8 ],
 					"midpoints" : [ 1987.5, 1066.0, 1392.5, 1066.0 ],
-					"order" : 1,
-					"source" : [ "obj-43", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-222", 0 ],
-					"order" : 0,
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -5525,6 +6056,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -5546,6 +6091,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
 					"midpoints" : [ 532.5, 63.0, 576.0, 63.0, 576.0, 99.0, 525.0, 99.0, 525.0, 90.0, 469.5, 90.0 ],
 					"source" : [ "obj-53", 1 ]
@@ -5554,71 +6106,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"order" : 7,
-					"source" : [ "obj-55", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-56", 0 ],
-					"midpoints" : [ 492.0, 27.0, 596.0, 27.0 ],
-					"order" : 6,
-					"source" : [ "obj-55", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-57", 0 ],
-					"midpoints" : [ 492.0, 27.0, 698.0, 27.0 ],
-					"order" : 5,
-					"source" : [ "obj-55", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-58", 0 ],
-					"midpoints" : [ 492.0, 27.0, 799.5, 27.0 ],
-					"order" : 4,
-					"source" : [ "obj-55", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-59", 0 ],
-					"midpoints" : [ 492.0, 27.0, 468.0, 27.0, 468.0, 66.0, 993.0, 66.0, 993.0, 21.0, 1209.0, 21.0 ],
-					"order" : 0,
-					"source" : [ "obj-55", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
-					"midpoints" : [ 492.0, 27.0, 468.0, 27.0, 468.0, 66.0, 993.0, 66.0, 993.0, 21.0, 1107.5, 21.0 ],
-					"order" : 1,
-					"source" : [ "obj-55", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-61", 0 ],
-					"midpoints" : [ 492.0, 27.0, 468.0, 27.0, 468.0, 66.0, 993.0, 66.0, 993.0, 30.0, 1005.5, 30.0 ],
-					"order" : 2,
-					"source" : [ "obj-55", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
-					"midpoints" : [ 492.0, 27.0, 901.5, 27.0 ],
-					"order" : 3,
+					"destination" : [ "obj-63", 0 ],
 					"source" : [ "obj-55", 0 ]
 				}
 
@@ -5759,6 +6247,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
+					"midpoints" : [ 492.0, -3.0, 477.0, -3.0, 477.0, 30.0, 492.0, 30.0 ],
 					"source" : [ "obj-72", 1 ]
 				}
 
@@ -5814,6 +6303,177 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"midpoints" : [ 492.0, 24.0, 492.0, 24.0 ],
+					"order" : 7,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"midpoints" : [ 492.0, 30.0, 596.0, 30.0 ],
+					"order" : 6,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"midpoints" : [ 492.0, 30.0, 698.0, 30.0 ],
+					"order" : 5,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"midpoints" : [ 492.0, 30.0, 799.5, 30.0 ],
+					"order" : 4,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"midpoints" : [ 492.0, 30.0, 582.0, 30.0, 582.0, 66.0, 993.0, 66.0, 993.0, 21.0, 1209.0, 21.0 ],
+					"order" : 0,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"midpoints" : [ 492.0, 30.0, 582.0, 30.0, 582.0, 66.0, 993.0, 66.0, 993.0, 21.0, 1107.5, 21.0 ],
+					"order" : 1,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"midpoints" : [ 492.0, 30.0, 582.0, 30.0, 582.0, 66.0, 993.0, 66.0, 993.0, 30.0, 1005.5, 30.0 ],
+					"order" : 2,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"midpoints" : [ 492.0, 30.0, 901.5, 30.0 ],
+					"order" : 3,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-203", 0 ],
+					"source" : [ "obj-81", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-86", 0 ],
+					"source" : [ "obj-82", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-143", 0 ],
+					"source" : [ "obj-85", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 7 ],
+					"source" : [ "obj-86", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 6 ],
+					"source" : [ "obj-86", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 5 ],
+					"source" : [ "obj-86", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 4 ],
+					"source" : [ "obj-86", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 3 ],
+					"source" : [ "obj-86", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 2 ],
+					"source" : [ "obj-86", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 1 ],
+					"source" : [ "obj-86", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"source" : [ "obj-86", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-143", 0 ],
+					"midpoints" : [ 743.0, 909.0, 469.5, 909.0 ],
+					"source" : [ "obj-87", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"source" : [ "obj-88", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"order" : 1,
 					"source" : [ "obj-9", 0 ]
@@ -5828,199 +6488,348 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-91", 0 ],
+					"source" : [ "obj-90", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-100", 0 ],
+					"midpoints" : [ 1468.5, -75.0, 1374.0, -75.0 ],
+					"source" : [ "obj-91", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-92", 1 ],
+					"midpoints" : [ 1484.5, 9.0, 1384.5, 9.0 ],
+					"order" : 7,
+					"source" : [ "obj-91", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-93", 1 ],
+					"midpoints" : [ 1484.5, 9.0, 1424.5, 9.0 ],
+					"order" : 6,
+					"source" : [ "obj-91", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-94", 1 ],
+					"midpoints" : [ 1484.5, -75.0, 1470.0, -75.0, 1470.0, -27.0, 1467.5, -27.0 ],
+					"order" : 5,
+					"source" : [ "obj-91", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 1 ],
+					"midpoints" : [ 1484.5, -30.0, 1513.5, -30.0 ],
+					"order" : 4,
+					"source" : [ "obj-91", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-96", 1 ],
+					"midpoints" : [ 1484.5, 9.0, 1562.5, 9.0 ],
+					"order" : 3,
+					"source" : [ "obj-91", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-97", 1 ],
+					"midpoints" : [ 1484.5, 9.0, 1600.5, 9.0 ],
+					"order" : 2,
+					"source" : [ "obj-91", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 1 ],
+					"midpoints" : [ 1484.5, 9.0, 1642.5, 9.0 ],
+					"order" : 1,
+					"source" : [ "obj-91", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-99", 1 ],
+					"midpoints" : [ 1484.5, 9.0, 1677.5, 9.0 ],
+					"order" : 0,
+					"source" : [ "obj-91", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"midpoints" : [ 1374.0, 21.0, 492.0, 21.0 ],
+					"source" : [ "obj-92", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"midpoints" : [ 1414.0, 21.0, 596.0, 21.0 ],
+					"source" : [ "obj-93", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"midpoints" : [ 1457.0, 21.0, 698.0, 21.0 ],
+					"source" : [ "obj-94", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"midpoints" : [ 1503.0, 21.0, 799.5, 21.0 ],
+					"source" : [ "obj-95", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"midpoints" : [ 1552.0, 21.0, 901.5, 21.0 ],
+					"source" : [ "obj-96", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"midpoints" : [ 1590.0, 21.0, 1005.5, 21.0 ],
+					"source" : [ "obj-97", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"midpoints" : [ 1632.0, 21.0, 1107.5, 21.0 ],
+					"source" : [ "obj-98", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"midpoints" : [ 1667.0, 21.0, 1209.0, 21.0 ],
+					"source" : [ "obj-99", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
-			"obj-37::obj-20" : [ "live.tab[44]", "live.tab", 0 ],
-			"obj-33::obj-20" : [ "live.tab[38]", "live.tab", 0 ],
-			"obj-202::obj-162::obj-103::obj-218" : [ "live.text[19]", "live.text[2]", 0 ],
-			"obj-42::obj-57" : [ "live.tab[16]", "live.tab", 0 ],
-			"obj-41::obj-57" : [ "live.tab[19]", "live.tab", 0 ],
-			"obj-34::obj-21" : [ "live.tab[41]", "live.tab", 0 ],
-			"obj-36::obj-20" : [ "live.tab[46]", "live.tab", 0 ],
-			"obj-46::obj-27" : [ "live.tab[24]", "live.tab", 0 ],
-			"obj-43::obj-27" : [ "live.tab[31]", "live.tab", 0 ],
-			"obj-45::obj-57" : [ "live.tab[25]", "live.tab", 0 ],
-			"obj-202::obj-160::obj-103::obj-218" : [ "live.text[27]", "live.text[2]", 0 ],
-			"obj-44::obj-54" : [ "live.tab[30]", "live.tab", 0 ],
-			"obj-9" : [ "live.tab", "live.tab", 0 ],
-			"obj-43::obj-57" : [ "live.tab[32]", "live.tab", 0 ],
-			"obj-32::obj-20" : [ "live.tab[37]", "live.tab", 0 ],
 			"obj-40::obj-57" : [ "live.tab[13]", "live.tab", 0 ],
-			"obj-38::obj-20" : [ "live.tab[43]", "live.tab", 0 ],
+			"obj-42::obj-57" : [ "live.tab[16]", "live.tab", 0 ],
 			"obj-35::obj-21" : [ "live.tab[48]", "live.tab", 0 ],
-			"obj-37::obj-21" : [ "live.tab[45]", "live.tab", 0 ],
-			"obj-11::obj-4" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-33::obj-21" : [ "live.tab[39]", "live.tab", 0 ],
-			"obj-31::obj-21" : [ "live.tab[34]", "live.tab", 0 ],
-			"obj-42::obj-54" : [ "live.tab[18]", "live.tab", 0 ],
-			"obj-31::obj-20" : [ "live.tab[35]", "live.tab", 0 ],
-			"obj-41::obj-54" : [ "live.tab[20]", "live.tab", 0 ],
-			"obj-36::obj-21" : [ "live.tab[47]", "live.tab", 0 ],
-			"obj-46::obj-57" : [ "live.tab[23]", "live.tab", 0 ],
-			"obj-45::obj-54" : [ "live.tab[26]", "live.tab", 0 ],
-			"obj-40::obj-54" : [ "live.tab[15]", "live.tab", 0 ],
-			"obj-44::obj-27" : [ "live.tab[29]", "live.tab", 0 ],
+			"obj-41::obj-57" : [ "live.tab[19]", "live.tab", 0 ],
+			"obj-46::obj-27" : [ "live.tab[24]", "live.tab", 0 ],
+			"obj-33::obj-20" : [ "live.tab[38]", "live.tab", 0 ],
 			"obj-202::obj-163::obj-103::obj-218" : [ "live.text[32]", "live.text[2]", 0 ],
-			"obj-39::obj-57" : [ "live.tab[11]", "live.tab", 0 ],
-			"obj-34::obj-20" : [ "live.tab[40]", "live.tab", 0 ],
-			"obj-43::obj-54" : [ "live.tab[33]", "live.tab", 0 ],
+			"obj-202::obj-159::obj-103::obj-218" : [ "live.text[3]", "live.text[2]", 0 ],
 			"obj-202::obj-164::obj-103::obj-218" : [ "live.text[30]", "live.text[2]", 0 ],
-			"obj-32::obj-21" : [ "live.tab[36]", "live.tab", 0 ],
-			"obj-39::obj-27" : [ "live.tab[12]", "live.tab", 0 ],
+			"obj-34::obj-21" : [ "live.tab[41]", "live.tab", 0 ],
+			"obj-45::obj-54" : [ "live.tab[26]", "live.tab", 0 ],
+			"obj-44::obj-54" : [ "live.tab[30]", "live.tab", 0 ],
+			"obj-43::obj-54" : [ "live.tab[33]", "live.tab", 0 ],
 			"obj-202::obj-165::obj-103::obj-218" : [ "live.text[29]", "live.text[2]", 0 ],
-			"obj-38::obj-21" : [ "live.tab[42]", "live.tab", 0 ],
-			"obj-35::obj-20" : [ "live.tab[49]", "live.tab", 0 ],
+			"obj-11::obj-4" : [ "live.tab[2]", "live.tab", 0 ],
 			"obj-202::obj-166::obj-103::obj-218" : [ "live.text[28]", "live.text[2]", 0 ],
-			"obj-223" : [ "mc.live.gain~[1]", "mc.live.gain~", 0 ],
+			"obj-32::obj-21" : [ "live.tab[36]", "live.tab", 0 ],
+			"obj-40::obj-54" : [ "live.tab[15]", "live.tab", 0 ],
+			"obj-38::obj-20" : [ "live.tab[43]", "live.tab", 0 ],
+			"obj-42::obj-54" : [ "live.tab[18]", "live.tab", 0 ],
+			"obj-41::obj-54" : [ "live.tab[20]", "live.tab", 0 ],
+			"obj-46::obj-57" : [ "live.tab[23]", "live.tab", 0 ],
+			"obj-202::obj-161::obj-103::obj-218" : [ "live.text[31]", "live.text[2]", 0 ],
+			"obj-39::obj-57" : [ "live.tab[11]", "live.tab", 0 ],
+			"obj-37::obj-20" : [ "live.tab[44]", "live.tab", 0 ],
+			"obj-36::obj-20" : [ "live.tab[46]", "live.tab", 0 ],
+			"obj-202::obj-162::obj-103::obj-218" : [ "live.text[19]", "live.text[2]", 0 ],
+			"obj-31::obj-21" : [ "live.tab[34]", "live.tab", 0 ],
+			"obj-45::obj-27" : [ "live.tab[27]", "live.tab", 0 ],
+			"obj-44::obj-27" : [ "live.tab[29]", "live.tab", 0 ],
+			"obj-31::obj-20" : [ "live.tab[35]", "live.tab", 0 ],
+			"obj-39::obj-27" : [ "live.tab[12]", "live.tab", 0 ],
+			"obj-43::obj-27" : [ "live.tab[31]", "live.tab", 0 ],
+			"obj-35::obj-20" : [ "live.tab[49]", "live.tab", 0 ],
+			"obj-202::obj-160::obj-103::obj-218" : [ "live.text[27]", "live.text[2]", 0 ],
+			"obj-33::obj-21" : [ "live.tab[39]", "live.tab", 0 ],
+			"obj-34::obj-20" : [ "live.tab[40]", "live.tab", 0 ],
+			"obj-39::obj-54" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-45::obj-57" : [ "live.tab[25]", "live.tab", 0 ],
+			"obj-9" : [ "live.tab", "live.tab", 0 ],
+			"obj-44::obj-57" : [ "live.tab[28]", "live.tab", 0 ],
+			"obj-43::obj-57" : [ "live.tab[32]", "live.tab", 0 ],
+			"obj-40::obj-27" : [ "live.tab[14]", "live.tab", 0 ],
+			"obj-38::obj-21" : [ "live.tab[42]", "live.tab", 0 ],
 			"obj-42::obj-27" : [ "live.tab[17]", "live.tab", 0 ],
 			"obj-41::obj-27" : [ "live.tab[21]", "live.tab", 0 ],
-			"obj-222" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"obj-46::obj-54" : [ "live.tab[22]", "live.tab", 0 ],
-			"obj-39::obj-54" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-45::obj-27" : [ "live.tab[27]", "live.tab", 0 ],
-			"obj-202::obj-159::obj-103::obj-218" : [ "live.text[3]", "live.text[2]", 0 ],
-			"obj-40::obj-27" : [ "live.tab[14]", "live.tab", 0 ],
-			"obj-44::obj-57" : [ "live.tab[28]", "live.tab", 0 ],
-			"obj-202::obj-161::obj-103::obj-218" : [ "live.text[31]", "live.text[2]", 0 ],
+			"obj-37::obj-21" : [ "live.tab[45]", "live.tab", 0 ],
+			"obj-36::obj-21" : [ "live.tab[47]", "live.tab", 0 ],
+			"obj-32::obj-20" : [ "live.tab[37]", "live.tab", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-37::obj-20" : 				{
-					"parameter_longname" : "live.tab[44]"
-				}
-,
-				"obj-33::obj-20" : 				{
-					"parameter_longname" : "live.tab[38]"
+				"obj-40::obj-57" : 				{
+					"parameter_longname" : "live.tab[13]"
 				}
 ,
 				"obj-42::obj-57" : 				{
 					"parameter_longname" : "live.tab[16]"
 				}
 ,
+				"obj-35::obj-21" : 				{
+					"parameter_longname" : "live.tab[48]"
+				}
+,
 				"obj-41::obj-57" : 				{
 					"parameter_longname" : "live.tab[19]"
-				}
-,
-				"obj-34::obj-21" : 				{
-					"parameter_longname" : "live.tab[41]"
-				}
-,
-				"obj-36::obj-20" : 				{
-					"parameter_longname" : "live.tab[46]"
 				}
 ,
 				"obj-46::obj-27" : 				{
 					"parameter_longname" : "live.tab[24]"
 				}
 ,
-				"obj-43::obj-27" : 				{
-					"parameter_longname" : "live.tab[31]"
+				"obj-33::obj-20" : 				{
+					"parameter_longname" : "live.tab[38]"
 				}
 ,
-				"obj-45::obj-57" : 				{
-					"parameter_longname" : "live.tab[25]"
-				}
-,
-				"obj-44::obj-54" : 				{
-					"parameter_longname" : "live.tab[30]"
-				}
-,
-				"obj-43::obj-57" : 				{
-					"parameter_longname" : "live.tab[32]"
-				}
-,
-				"obj-32::obj-20" : 				{
-					"parameter_longname" : "live.tab[37]"
-				}
-,
-				"obj-40::obj-57" : 				{
-					"parameter_longname" : "live.tab[13]"
-				}
-,
-				"obj-38::obj-20" : 				{
-					"parameter_longname" : "live.tab[43]"
-				}
-,
-				"obj-35::obj-21" : 				{
-					"parameter_longname" : "live.tab[48]"
-				}
-,
-				"obj-37::obj-21" : 				{
-					"parameter_longname" : "live.tab[45]"
-				}
-,
-				"obj-11::obj-4" : 				{
-					"parameter_longname" : "live.tab[2]"
-				}
-,
-				"obj-33::obj-21" : 				{
-					"parameter_longname" : "live.tab[39]"
-				}
-,
-				"obj-31::obj-21" : 				{
-					"parameter_longname" : "live.tab[34]"
-				}
-,
-				"obj-42::obj-54" : 				{
-					"parameter_longname" : "live.tab[18]"
-				}
-,
-				"obj-31::obj-20" : 				{
-					"parameter_longname" : "live.tab[35]"
-				}
-,
-				"obj-41::obj-54" : 				{
-					"parameter_longname" : "live.tab[20]"
-				}
-,
-				"obj-36::obj-21" : 				{
-					"parameter_longname" : "live.tab[47]"
-				}
-,
-				"obj-46::obj-57" : 				{
-					"parameter_longname" : "live.tab[23]"
+				"obj-34::obj-21" : 				{
+					"parameter_longname" : "live.tab[41]"
 				}
 ,
 				"obj-45::obj-54" : 				{
 					"parameter_longname" : "live.tab[26]"
 				}
 ,
-				"obj-40::obj-54" : 				{
-					"parameter_longname" : "live.tab[15]"
-				}
-,
-				"obj-44::obj-27" : 				{
-					"parameter_longname" : "live.tab[29]"
-				}
-,
-				"obj-39::obj-57" : 				{
-					"parameter_longname" : "live.tab[11]"
-				}
-,
-				"obj-34::obj-20" : 				{
-					"parameter_longname" : "live.tab[40]"
+				"obj-44::obj-54" : 				{
+					"parameter_longname" : "live.tab[30]"
 				}
 ,
 				"obj-43::obj-54" : 				{
 					"parameter_longname" : "live.tab[33]"
 				}
 ,
+				"obj-11::obj-4" : 				{
+					"parameter_longname" : "live.tab[2]"
+				}
+,
 				"obj-32::obj-21" : 				{
 					"parameter_longname" : "live.tab[36]"
+				}
+,
+				"obj-40::obj-54" : 				{
+					"parameter_longname" : "live.tab[15]"
+				}
+,
+				"obj-38::obj-20" : 				{
+					"parameter_longname" : "live.tab[43]"
+				}
+,
+				"obj-42::obj-54" : 				{
+					"parameter_longname" : "live.tab[18]"
+				}
+,
+				"obj-41::obj-54" : 				{
+					"parameter_longname" : "live.tab[20]"
+				}
+,
+				"obj-46::obj-57" : 				{
+					"parameter_longname" : "live.tab[23]"
+				}
+,
+				"obj-39::obj-57" : 				{
+					"parameter_longname" : "live.tab[11]"
+				}
+,
+				"obj-37::obj-20" : 				{
+					"parameter_longname" : "live.tab[44]"
+				}
+,
+				"obj-36::obj-20" : 				{
+					"parameter_longname" : "live.tab[46]"
+				}
+,
+				"obj-31::obj-21" : 				{
+					"parameter_longname" : "live.tab[34]"
+				}
+,
+				"obj-45::obj-27" : 				{
+					"parameter_longname" : "live.tab[27]"
+				}
+,
+				"obj-44::obj-27" : 				{
+					"parameter_longname" : "live.tab[29]"
+				}
+,
+				"obj-31::obj-20" : 				{
+					"parameter_longname" : "live.tab[35]"
 				}
 ,
 				"obj-39::obj-27" : 				{
 					"parameter_longname" : "live.tab[12]"
 				}
 ,
-				"obj-38::obj-21" : 				{
-					"parameter_longname" : "live.tab[42]"
+				"obj-43::obj-27" : 				{
+					"parameter_longname" : "live.tab[31]"
 				}
 ,
 				"obj-35::obj-20" : 				{
 					"parameter_longname" : "live.tab[49]"
+				}
+,
+				"obj-33::obj-21" : 				{
+					"parameter_longname" : "live.tab[39]"
+				}
+,
+				"obj-34::obj-20" : 				{
+					"parameter_longname" : "live.tab[40]"
+				}
+,
+				"obj-45::obj-57" : 				{
+					"parameter_longname" : "live.tab[25]"
+				}
+,
+				"obj-44::obj-57" : 				{
+					"parameter_longname" : "live.tab[28]"
+				}
+,
+				"obj-43::obj-57" : 				{
+					"parameter_longname" : "live.tab[32]"
+				}
+,
+				"obj-40::obj-27" : 				{
+					"parameter_longname" : "live.tab[14]"
+				}
+,
+				"obj-38::obj-21" : 				{
+					"parameter_longname" : "live.tab[42]"
 				}
 ,
 				"obj-42::obj-27" : 				{
@@ -6035,16 +6844,16 @@
 					"parameter_longname" : "live.tab[22]"
 				}
 ,
-				"obj-45::obj-27" : 				{
-					"parameter_longname" : "live.tab[27]"
+				"obj-37::obj-21" : 				{
+					"parameter_longname" : "live.tab[45]"
 				}
 ,
-				"obj-40::obj-27" : 				{
-					"parameter_longname" : "live.tab[14]"
+				"obj-36::obj-21" : 				{
+					"parameter_longname" : "live.tab[47]"
 				}
 ,
-				"obj-44::obj-57" : 				{
-					"parameter_longname" : "live.tab[28]"
+				"obj-32::obj-20" : 				{
+					"parameter_longname" : "live.tab[37]"
 				}
 
 			}
@@ -6163,6 +6972,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "sc.net.receive.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/utilities",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/SC/patchers/utilities",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "cv.jit.HSflow.mxo",
 				"type" : "iLaX"
 			}
@@ -6172,6 +6988,10 @@
 			}
 , 			{
 				"name" : "cv.jit.resize.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ],
