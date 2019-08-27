@@ -2,7 +2,7 @@
 	"name" : "StretchBank",
 	"version" : 1,
 	"creationdate" : 3647936895,
-	"modificationdate" : 3649255088,
+	"modificationdate" : 3649665036,
 	"viewrect" : [ 18.0, 141.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -47,6 +47,11 @@
 			}
 ,
 			"sc.sb.ffb~.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"range.ms-helper.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
