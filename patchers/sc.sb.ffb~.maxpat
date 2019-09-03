@@ -262,6 +262,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-96",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -539,12 +540,10 @@
 			}
 , 			{
 				"box" : 				{
-					"allowdrag" : 0,
 					"fontsize" : 11.0,
 					"id" : "obj-40",
 					"items" : [ "A", ",", "A#", ",", "B", ",", "C", ",", "C#", ",", "D", ",", "D#", ",", "E", ",", "F", ",", "F#", ",", "G", ",", "G#", ",", "A2", ",", "Minyo", ",", "Miyakobushi", ",", "Ritsu", ",", "Ryukyu" ],
 					"maxclass" : "umenu",
-					"menumode" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
@@ -553,7 +552,7 @@
 					"pattrmode" : 1,
 					"presentation" : 1,
 					"presentation_rect" : [ 151.0, 71.0, 60.0, 21.0 ],
-					"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
 					"varname" : "umenu"
 				}
 
@@ -1379,6 +1378,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-163",
+					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -2183,8 +2183,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"cantchange" : 1,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontsize" : 11.0,
 					"format" : 6,
 					"id" : "obj-122",
@@ -4522,7 +4521,7 @@
 				"box" : 				{
 					"id" : "obj-72",
 					"inputs" : 5,
-					"int" : 2,
+					"int" : 4,
 					"maxclass" : "gswitch",
 					"numinlets" : 6,
 					"numoutlets" : 1,
@@ -4646,7 +4645,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.545098039215686, 0.545098039215686, 0.545098039215686, 1.0 ],
-					"activebgoncolor" : [ 0.3, 0.3, 0.5, 1.0 ],
+					"activebgoncolor" : [ 0.94, 0.89, 0.04, 1.0 ],
 					"id" : "obj-57",
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 1,
@@ -4660,12 +4659,12 @@
 					"presentation_rect" : [ 1.0, 183.0, 210.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.tab[11]",
 							"parameter_mmax" : 4,
 							"parameter_shortname" : "live.tab",
 							"parameter_enum" : [ "Red", "Green", "Blue", "Luma", "Motion" ],
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.tab[11]"
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -5089,12 +5088,12 @@
 					"presentation_rect" : [ 1.0, 138.0, 210.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.tab[1]",
 							"parameter_mmax" : 4,
 							"parameter_shortname" : "live.tab",
 							"parameter_enum" : [ "Red", "Green", "Blue", "Luma", "Motion" ],
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.tab[1]"
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -5139,12 +5138,12 @@
 					"presentation_rect" : [ 1.0, 93.0, 210.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.tab[12]",
 							"parameter_mmax" : 4,
 							"parameter_shortname" : "live.tab",
 							"parameter_enum" : [ "Red", "Green", "Blue", "Luma", "Motion" ],
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.tab[12]"
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -5308,7 +5307,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 1592.0, 446.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5378,7 +5377,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 198.0, 148.0, 22.0 ],
+									"patching_rect" : [ 61.0, 166.0, 148.0, 22.0 ],
 									"text" : "vexpr int(($f1 + $f2) * 100)"
 								}
 
@@ -5462,15 +5461,6 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-34", 0 ],
-									"order" : 1,
-									"source" : [ "obj-33", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-35", 0 ],
-									"order" : 0,
 									"source" : [ "obj-33", 0 ]
 								}
 
@@ -5513,6 +5503,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-33", 0 ],
+									"order" : 1,
+									"source" : [ "obj-48", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"order" : 0,
 									"source" : [ "obj-48", 0 ]
 								}
 
@@ -5843,7 +5842,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -5890,11 +5889,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 173.0, 731.0, 30.0, 30.0 ]
 				}
 
@@ -5914,7 +5913,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -7086,41 +7085,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-57" : [ "live.tab[11]", "live.tab", 0 ],
-			"obj-27" : [ "live.tab[12]", "live.tab", 0 ],
-			"obj-54" : [ "live.tab[1]", "live.tab", 0 ],
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "sc.avg.vecwindow.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/utilities",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/SC/patchers/utilities",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sc.avg.window.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/utilities",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/SC/patchers/utilities",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cv.jit.resize.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "cv.jit.HSflow.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
