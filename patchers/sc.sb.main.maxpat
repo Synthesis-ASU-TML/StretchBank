@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 740.0, 194.0, 1425.0, 994.0 ],
+		"rect" : [ 1069.0, 79.0, 1425.0, 994.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,30 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-83",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "FullPacket" ],
+					"patching_rect" : [ 743.0, 1121.0, 94.0, 22.0 ],
+					"text" : "o.route /mix_pct"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1796.0, -85.0, 178.0, 22.0 ],
+					"text" : "0 25"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-100",
 					"maxclass" : "newobj",
@@ -305,7 +329,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 276.0, -42.0, 81.0, 22.0 ],
+					"patching_rect" : [ 276.0, -62.0, 81.0, 22.0 ],
 					"text" : "r #0-to-preset"
 				}
 
@@ -317,7 +341,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 276.0, -14.0, 89.0, 22.0 ],
+					"patching_rect" : [ 276.0, -35.0, 89.0, 22.0 ],
 					"text" : "prepend preset"
 				}
 
@@ -4425,7 +4449,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-59",
-					"items" : [ "163503__erh__acoustic-rtkrb1-2.wav", ",", "173039__sergeeo__toy-guitar-elastic-02.wav", ",", "173045__sergeeo__toy-guitar-playing.wav", ",", "240347__zagi2__weird-marimba-loop.wav", ",", "406569__bigmanjoe__smooth-chill-hip-hop-loop.wav", ",", "amberque.wav", ",", "bamboo_chimes.wav", ",", "Boyd1.aiff", ",", "Boyd2.aiff", ",", "Boyd3.aiff", ",", "branchesfilter.wav", ",", "bufferthing01.wav", ",", "cello.wav", ",", "cicada.wav", ",", "colorfield_emiddiovasquez.wav", ",", "cosmosis_emiddiovasquez.wav", ",", "cricket_08-02.2-SpectralDroneMaker.wav", ",", "dronebuchla_emiddiovasquez.wav", ",", "dryer.wav", ",", "ekg_rhythm-01.wav", ",", "electric_emiddiovasquez.wav", ",", "electric_emiddiovasquez_mono.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav", ",", "gaspe_thunder-02.wav", ",", "goodcricket.wav", ",", "horn-5x_2.wav", ",", "hornmass-thing01.wav", ",", "killer_hiF_01.wav", ",", "magnitude6-1.wav", ",", "magnitude6-2.wav", ",", "marble1_emiddiovasquez.wav", ",", "marble2_emiddiovasquez.wav", ",", "marble3_emiddiovasquez.wav", ",", "marimba.mp3", ",", "marimba_kids.wav", ",", "piano-newharmonizer1.wav", ",", "sci-fi.mp3", ",", "shortwave_15.wav", ",", "shortwave_18.wav", ",", "shortwave_22.wav", ",", "sleeping shoulder_emiddio vasquez.wav", ",", "steel_drums.mp3", ",", "temporal entanglements_emiddiovasquez.wav", ",", "violin-5th_1-1.wav", ",", "violin-5th_2-1.wav", ",", "wooden_chimes.wav", ",", "xylo-pianotransition3.wav", ",", "xylophone.wav" ],
+					"items" : [ "163503__erh__acoustic-rtkrb1-2.wav", ",", "173039__sergeeo__toy-guitar-elastic-02.wav", ",", "173045__sergeeo__toy-guitar-playing.wav", ",", "240347__zagi2__weird-marimba-loop.wav", ",", "406569__bigmanjoe__smooth-chill-hip-hop-loop.wav", ",", "amberque.wav", ",", "bamboo_chimes.wav", ",", "Boyd1.aiff", ",", "Boyd2.aiff", ",", "Boyd3.aiff", ",", "branchesfilter.wav", ",", "bufferthing01.wav", ",", "cello.wav", ",", "cicada.wav", ",", "colorfield_emiddiovasquez.wav", ",", "cosmosis_emiddiovasquez.wav", ",", "cricket_08-02.2-SpectralDroneMaker.wav", ",", "dronebuchla_emiddiovasquez.wav", ",", "dryer.wav", ",", "ekg_rhythm-01.wav", ",", "electric_emiddiovasquez.wav", ",", "electric_emiddiovasquez_mono.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav", ",", "gaspe_thunder-02.wav", ",", "gmen.aiff", ",", "goodcricket.wav", ",", "horn-5x_2.wav", ",", "hornmass-thing01.wav", ",", "killer_hiF_01.wav", ",", "magnitude6-1.wav", ",", "magnitude6-2.wav", ",", "marble1_emiddiovasquez.wav", ",", "marble2_emiddiovasquez.wav", ",", "marble3_emiddiovasquez.wav", ",", "marimba.mp3", ",", "marimba_kids.wav", ",", "piano-newharmonizer1.wav", ",", "sci-fi.mp3", ",", "shortwave_15.wav", ",", "shortwave_18.wav", ",", "shortwave_22.wav", ",", "sleeping shoulder_emiddio vasquez.wav", ",", "steel_drums.mp3", ",", "temporal entanglements_emiddiovasquez.wav", ",", "violin-5th_1-1.wav", ",", "violin-5th_2-1.wav", ",", "wooden_chimes.wav", ",", "xylo-pianotransition3.wav", ",", "xylophone.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4445,7 +4469,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-60",
-					"items" : [ "163503__erh__acoustic-rtkrb1-2.wav", ",", "173039__sergeeo__toy-guitar-elastic-02.wav", ",", "173045__sergeeo__toy-guitar-playing.wav", ",", "240347__zagi2__weird-marimba-loop.wav", ",", "406569__bigmanjoe__smooth-chill-hip-hop-loop.wav", ",", "amberque.wav", ",", "bamboo_chimes.wav", ",", "Boyd1.aiff", ",", "Boyd2.aiff", ",", "Boyd3.aiff", ",", "branchesfilter.wav", ",", "bufferthing01.wav", ",", "cello.wav", ",", "cicada.wav", ",", "colorfield_emiddiovasquez.wav", ",", "cosmosis_emiddiovasquez.wav", ",", "cricket_08-02.2-SpectralDroneMaker.wav", ",", "dronebuchla_emiddiovasquez.wav", ",", "dryer.wav", ",", "ekg_rhythm-01.wav", ",", "electric_emiddiovasquez.wav", ",", "electric_emiddiovasquez_mono.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav", ",", "gaspe_thunder-02.wav", ",", "goodcricket.wav", ",", "horn-5x_2.wav", ",", "hornmass-thing01.wav", ",", "killer_hiF_01.wav", ",", "magnitude6-1.wav", ",", "magnitude6-2.wav", ",", "marble1_emiddiovasquez.wav", ",", "marble2_emiddiovasquez.wav", ",", "marble3_emiddiovasquez.wav", ",", "marimba.mp3", ",", "marimba_kids.wav", ",", "piano-newharmonizer1.wav", ",", "sci-fi.mp3", ",", "shortwave_15.wav", ",", "shortwave_18.wav", ",", "shortwave_22.wav", ",", "sleeping shoulder_emiddio vasquez.wav", ",", "steel_drums.mp3", ",", "temporal entanglements_emiddiovasquez.wav", ",", "violin-5th_1-1.wav", ",", "violin-5th_2-1.wav", ",", "wooden_chimes.wav", ",", "xylo-pianotransition3.wav", ",", "xylophone.wav" ],
+					"items" : [ "163503__erh__acoustic-rtkrb1-2.wav", ",", "173039__sergeeo__toy-guitar-elastic-02.wav", ",", "173045__sergeeo__toy-guitar-playing.wav", ",", "240347__zagi2__weird-marimba-loop.wav", ",", "406569__bigmanjoe__smooth-chill-hip-hop-loop.wav", ",", "amberque.wav", ",", "bamboo_chimes.wav", ",", "Boyd1.aiff", ",", "Boyd2.aiff", ",", "Boyd3.aiff", ",", "branchesfilter.wav", ",", "bufferthing01.wav", ",", "cello.wav", ",", "cicada.wav", ",", "colorfield_emiddiovasquez.wav", ",", "cosmosis_emiddiovasquez.wav", ",", "cricket_08-02.2-SpectralDroneMaker.wav", ",", "dronebuchla_emiddiovasquez.wav", ",", "dryer.wav", ",", "ekg_rhythm-01.wav", ",", "electric_emiddiovasquez.wav", ",", "electric_emiddiovasquez_mono.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav", ",", "gaspe_thunder-02.wav", ",", "gmen.aiff", ",", "goodcricket.wav", ",", "horn-5x_2.wav", ",", "hornmass-thing01.wav", ",", "killer_hiF_01.wav", ",", "magnitude6-1.wav", ",", "magnitude6-2.wav", ",", "marble1_emiddiovasquez.wav", ",", "marble2_emiddiovasquez.wav", ",", "marble3_emiddiovasquez.wav", ",", "marimba.mp3", ",", "marimba_kids.wav", ",", "piano-newharmonizer1.wav", ",", "sci-fi.mp3", ",", "shortwave_15.wav", ",", "shortwave_18.wav", ",", "shortwave_22.wav", ",", "sleeping shoulder_emiddio vasquez.wav", ",", "steel_drums.mp3", ",", "temporal entanglements_emiddiovasquez.wav", ",", "violin-5th_1-1.wav", ",", "violin-5th_2-1.wav", ",", "wooden_chimes.wav", ",", "xylo-pianotransition3.wav", ",", "xylophone.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4464,7 +4488,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-61",
-					"items" : [ "163503__erh__acoustic-rtkrb1-2.wav", ",", "173039__sergeeo__toy-guitar-elastic-02.wav", ",", "173045__sergeeo__toy-guitar-playing.wav", ",", "240347__zagi2__weird-marimba-loop.wav", ",", "406569__bigmanjoe__smooth-chill-hip-hop-loop.wav", ",", "amberque.wav", ",", "bamboo_chimes.wav", ",", "Boyd1.aiff", ",", "Boyd2.aiff", ",", "Boyd3.aiff", ",", "branchesfilter.wav", ",", "bufferthing01.wav", ",", "cello.wav", ",", "cicada.wav", ",", "colorfield_emiddiovasquez.wav", ",", "cosmosis_emiddiovasquez.wav", ",", "cricket_08-02.2-SpectralDroneMaker.wav", ",", "dronebuchla_emiddiovasquez.wav", ",", "dryer.wav", ",", "ekg_rhythm-01.wav", ",", "electric_emiddiovasquez.wav", ",", "electric_emiddiovasquez_mono.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav", ",", "gaspe_thunder-02.wav", ",", "goodcricket.wav", ",", "horn-5x_2.wav", ",", "hornmass-thing01.wav", ",", "killer_hiF_01.wav", ",", "magnitude6-1.wav", ",", "magnitude6-2.wav", ",", "marble1_emiddiovasquez.wav", ",", "marble2_emiddiovasquez.wav", ",", "marble3_emiddiovasquez.wav", ",", "marimba.mp3", ",", "marimba_kids.wav", ",", "piano-newharmonizer1.wav", ",", "sci-fi.mp3", ",", "shortwave_15.wav", ",", "shortwave_18.wav", ",", "shortwave_22.wav", ",", "sleeping shoulder_emiddio vasquez.wav", ",", "steel_drums.mp3", ",", "temporal entanglements_emiddiovasquez.wav", ",", "violin-5th_1-1.wav", ",", "violin-5th_2-1.wav", ",", "wooden_chimes.wav", ",", "xylo-pianotransition3.wav", ",", "xylophone.wav" ],
+					"items" : [ "163503__erh__acoustic-rtkrb1-2.wav", ",", "173039__sergeeo__toy-guitar-elastic-02.wav", ",", "173045__sergeeo__toy-guitar-playing.wav", ",", "240347__zagi2__weird-marimba-loop.wav", ",", "406569__bigmanjoe__smooth-chill-hip-hop-loop.wav", ",", "amberque.wav", ",", "bamboo_chimes.wav", ",", "Boyd1.aiff", ",", "Boyd2.aiff", ",", "Boyd3.aiff", ",", "branchesfilter.wav", ",", "bufferthing01.wav", ",", "cello.wav", ",", "cicada.wav", ",", "colorfield_emiddiovasquez.wav", ",", "cosmosis_emiddiovasquez.wav", ",", "cricket_08-02.2-SpectralDroneMaker.wav", ",", "dronebuchla_emiddiovasquez.wav", ",", "dryer.wav", ",", "ekg_rhythm-01.wav", ",", "electric_emiddiovasquez.wav", ",", "electric_emiddiovasquez_mono.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav", ",", "gaspe_thunder-02.wav", ",", "gmen.aiff", ",", "goodcricket.wav", ",", "horn-5x_2.wav", ",", "hornmass-thing01.wav", ",", "killer_hiF_01.wav", ",", "magnitude6-1.wav", ",", "magnitude6-2.wav", ",", "marble1_emiddiovasquez.wav", ",", "marble2_emiddiovasquez.wav", ",", "marble3_emiddiovasquez.wav", ",", "marimba.mp3", ",", "marimba_kids.wav", ",", "piano-newharmonizer1.wav", ",", "sci-fi.mp3", ",", "shortwave_15.wav", ",", "shortwave_18.wav", ",", "shortwave_22.wav", ",", "sleeping shoulder_emiddio vasquez.wav", ",", "steel_drums.mp3", ",", "temporal entanglements_emiddiovasquez.wav", ",", "violin-5th_1-1.wav", ",", "violin-5th_2-1.wav", ",", "wooden_chimes.wav", ",", "xylo-pianotransition3.wav", ",", "xylophone.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4483,7 +4507,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-62",
-					"items" : [ "163503__erh__acoustic-rtkrb1-2.wav", ",", "173039__sergeeo__toy-guitar-elastic-02.wav", ",", "173045__sergeeo__toy-guitar-playing.wav", ",", "240347__zagi2__weird-marimba-loop.wav", ",", "406569__bigmanjoe__smooth-chill-hip-hop-loop.wav", ",", "amberque.wav", ",", "bamboo_chimes.wav", ",", "Boyd1.aiff", ",", "Boyd2.aiff", ",", "Boyd3.aiff", ",", "branchesfilter.wav", ",", "bufferthing01.wav", ",", "cello.wav", ",", "cicada.wav", ",", "colorfield_emiddiovasquez.wav", ",", "cosmosis_emiddiovasquez.wav", ",", "cricket_08-02.2-SpectralDroneMaker.wav", ",", "dronebuchla_emiddiovasquez.wav", ",", "dryer.wav", ",", "ekg_rhythm-01.wav", ",", "electric_emiddiovasquez.wav", ",", "electric_emiddiovasquez_mono.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav", ",", "gaspe_thunder-02.wav", ",", "goodcricket.wav", ",", "horn-5x_2.wav", ",", "hornmass-thing01.wav", ",", "killer_hiF_01.wav", ",", "magnitude6-1.wav", ",", "magnitude6-2.wav", ",", "marble1_emiddiovasquez.wav", ",", "marble2_emiddiovasquez.wav", ",", "marble3_emiddiovasquez.wav", ",", "marimba.mp3", ",", "marimba_kids.wav", ",", "piano-newharmonizer1.wav", ",", "sci-fi.mp3", ",", "shortwave_15.wav", ",", "shortwave_18.wav", ",", "shortwave_22.wav", ",", "sleeping shoulder_emiddio vasquez.wav", ",", "steel_drums.mp3", ",", "temporal entanglements_emiddiovasquez.wav", ",", "violin-5th_1-1.wav", ",", "violin-5th_2-1.wav", ",", "wooden_chimes.wav", ",", "xylo-pianotransition3.wav", ",", "xylophone.wav" ],
+					"items" : [ "163503__erh__acoustic-rtkrb1-2.wav", ",", "173039__sergeeo__toy-guitar-elastic-02.wav", ",", "173045__sergeeo__toy-guitar-playing.wav", ",", "240347__zagi2__weird-marimba-loop.wav", ",", "406569__bigmanjoe__smooth-chill-hip-hop-loop.wav", ",", "amberque.wav", ",", "bamboo_chimes.wav", ",", "Boyd1.aiff", ",", "Boyd2.aiff", ",", "Boyd3.aiff", ",", "branchesfilter.wav", ",", "bufferthing01.wav", ",", "cello.wav", ",", "cicada.wav", ",", "colorfield_emiddiovasquez.wav", ",", "cosmosis_emiddiovasquez.wav", ",", "cricket_08-02.2-SpectralDroneMaker.wav", ",", "dronebuchla_emiddiovasquez.wav", ",", "dryer.wav", ",", "ekg_rhythm-01.wav", ",", "electric_emiddiovasquez.wav", ",", "electric_emiddiovasquez_mono.wav", ",", "elementary_wave.wav", ",", "ethereal_orch.wav", ",", "gaspe_thunder-02.wav", ",", "gmen.aiff", ",", "goodcricket.wav", ",", "horn-5x_2.wav", ",", "hornmass-thing01.wav", ",", "killer_hiF_01.wav", ",", "magnitude6-1.wav", ",", "magnitude6-2.wav", ",", "marble1_emiddiovasquez.wav", ",", "marble2_emiddiovasquez.wav", ",", "marble3_emiddiovasquez.wav", ",", "marimba.mp3", ",", "marimba_kids.wav", ",", "piano-newharmonizer1.wav", ",", "sci-fi.mp3", ",", "shortwave_15.wav", ",", "shortwave_18.wav", ",", "shortwave_22.wav", ",", "sleeping shoulder_emiddio vasquez.wav", ",", "steel_drums.mp3", ",", "temporal entanglements_emiddiovasquez.wav", ",", "violin-5th_1-1.wav", ",", "violin-5th_2-1.wav", ",", "wooden_chimes.wav", ",", "xylo-pianotransition3.wav", ",", "xylophone.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4985,7 +5009,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 276.0, 122.0, 112.0, 22.0 ],
+					"patching_rect" : [ 276.0, 134.0, 112.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 45, 358, 246 ],
 						"parameter_enable" : 0,
@@ -5093,12 +5117,12 @@
 					"presentation_rect" : [ 19.0, 520.0, 311.0, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.tab",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.tab",
 							"parameter_enum" : [ "Generate Particles", "Receive Particles" ],
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.tab"
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -6396,6 +6420,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-83", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-143", 0 ],
 					"source" : [ "obj-85", 0 ]
 				}
@@ -6468,6 +6499,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
+					"order" : 1,
+					"source" : [ "obj-88", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"order" : 0,
 					"source" : [ "obj-88", 0 ]
 				}
 
@@ -6490,7 +6530,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 1 ],
+					"order" : 0,
+					"source" : [ "obj-90", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-91", 0 ],
+					"order" : 1,
 					"source" : [ "obj-90", 0 ]
 				}
 
@@ -6641,203 +6690,67 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-44::obj-54" : [ "live.tab[30]", "live.tab", 0 ],
-			"obj-43::obj-27" : [ "live.tab[31]", "live.tab", 0 ],
-			"obj-37::obj-21" : [ "live.tab[45]", "live.tab", 0 ],
-			"obj-36::obj-20" : [ "live.tab[46]", "live.tab", 0 ],
-			"obj-202::obj-159::obj-103::obj-218" : [ "live.text[3]", "live.text[2]", 0 ],
-			"obj-202::obj-165::obj-103::obj-218" : [ "live.text[29]", "live.text[2]", 0 ],
-			"obj-32::obj-21" : [ "live.tab[36]", "live.tab", 0 ],
-			"obj-34::obj-20" : [ "live.tab[40]", "live.tab", 0 ],
-			"obj-202::obj-166::obj-103::obj-218" : [ "live.text[28]", "live.text[2]", 0 ],
-			"obj-40::obj-54" : [ "live.tab[15]", "live.tab", 0 ],
-			"obj-31::obj-21" : [ "live.tab[34]", "live.tab", 0 ],
-			"obj-35::obj-21" : [ "live.tab[48]", "live.tab", 0 ],
-			"obj-42::obj-54" : [ "live.tab[18]", "live.tab", 0 ],
-			"obj-38::obj-20" : [ "live.tab[43]", "live.tab", 0 ],
-			"obj-41::obj-27" : [ "live.tab[21]", "live.tab", 0 ],
-			"obj-202::obj-161::obj-103::obj-218" : [ "live.text[31]", "live.text[2]", 0 ],
-			"obj-31::obj-20" : [ "live.tab[35]", "live.tab", 0 ],
-			"obj-46::obj-27" : [ "live.tab[24]", "live.tab", 0 ],
 			"obj-202::obj-163::obj-103::obj-218" : [ "live.text[32]", "live.text[2]", 0 ],
-			"obj-45::obj-27" : [ "live.tab[27]", "live.tab", 0 ],
-			"obj-11::obj-4" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-202::obj-162::obj-103::obj-218" : [ "live.text[19]", "live.text[2]", 0 ],
-			"obj-202::obj-164::obj-103::obj-218" : [ "live.text[30]", "live.text[2]", 0 ],
-			"obj-33::obj-20" : [ "live.tab[38]", "live.tab", 0 ],
-			"obj-44::obj-27" : [ "live.tab[29]", "live.tab", 0 ],
-			"obj-43::obj-57" : [ "live.tab[32]", "live.tab", 0 ],
-			"obj-202::obj-160::obj-103::obj-218" : [ "live.text[27]", "live.text[2]", 0 ],
-			"obj-36::obj-21" : [ "live.tab[47]", "live.tab", 0 ],
-			"obj-39::obj-57" : [ "live.tab[11]", "live.tab", 0 ],
-			"obj-34::obj-21" : [ "live.tab[41]", "live.tab", 0 ],
-			"obj-44::obj-57" : [ "live.tab[28]", "live.tab", 0 ],
-			"obj-43::obj-54" : [ "live.tab[33]", "live.tab", 0 ],
-			"obj-40::obj-27" : [ "live.tab[14]", "live.tab", 0 ],
-			"obj-42::obj-27" : [ "live.tab[17]", "live.tab", 0 ],
-			"obj-38::obj-21" : [ "live.tab[42]", "live.tab", 0 ],
-			"obj-37::obj-20" : [ "live.tab[44]", "live.tab", 0 ],
-			"obj-39::obj-27" : [ "live.tab[12]", "live.tab", 0 ],
-			"obj-41::obj-57" : [ "live.tab[19]", "live.tab", 0 ],
-			"obj-9" : [ "live.tab", "live.tab", 0 ],
-			"obj-46::obj-57" : [ "live.tab[23]", "live.tab", 0 ],
-			"obj-32::obj-20" : [ "live.tab[37]", "live.tab", 0 ],
-			"obj-45::obj-57" : [ "live.tab[25]", "live.tab", 0 ],
-			"obj-33::obj-21" : [ "live.tab[39]", "live.tab", 0 ],
-			"obj-39::obj-54" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-40::obj-57" : [ "live.tab[13]", "live.tab", 0 ],
-			"obj-35::obj-20" : [ "live.tab[49]", "live.tab", 0 ],
+			"obj-32::obj-20" : [ "live.tab[37]", "live.tab", 0 ],
 			"obj-42::obj-57" : [ "live.tab[16]", "live.tab", 0 ],
+			"obj-202::obj-164::obj-103::obj-218" : [ "live.text[30]", "live.text[2]", 0 ],
 			"obj-41::obj-54" : [ "live.tab[20]", "live.tab", 0 ],
 			"obj-46::obj-54" : [ "live.tab[22]", "live.tab", 0 ],
 			"obj-45::obj-54" : [ "live.tab[26]", "live.tab", 0 ],
+			"obj-202::obj-165::obj-103::obj-218" : [ "live.text[29]", "live.text[2]", 0 ],
+			"obj-44::obj-54" : [ "live.tab[30]", "live.tab", 0 ],
+			"obj-36::obj-21" : [ "live.tab[47]", "live.tab", 0 ],
+			"obj-43::obj-57" : [ "live.tab[32]", "live.tab", 0 ],
+			"obj-40::obj-54" : [ "live.tab[15]", "live.tab", 0 ],
+			"obj-31::obj-21" : [ "live.tab[34]", "live.tab", 0 ],
+			"obj-42::obj-54" : [ "live.tab[18]", "live.tab", 0 ],
+			"obj-202::obj-166::obj-103::obj-218" : [ "live.text[28]", "live.text[2]", 0 ],
+			"obj-31::obj-20" : [ "live.tab[35]", "live.tab", 0 ],
+			"obj-33::obj-21" : [ "live.tab[39]", "live.tab", 0 ],
+			"obj-37::obj-21" : [ "live.tab[45]", "live.tab", 0 ],
+			"obj-202::obj-161::obj-103::obj-218" : [ "live.text[31]", "live.text[2]", 0 ],
+			"obj-34::obj-21" : [ "live.tab[41]", "live.tab", 0 ],
+			"obj-11::obj-4" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-202::obj-162::obj-103::obj-218" : [ "live.text[19]", "live.text[2]", 0 ],
+			"obj-9" : [ "live.tab", "live.tab", 0 ],
+			"obj-32::obj-21" : [ "live.tab[36]", "live.tab", 0 ],
+			"obj-38::obj-20" : [ "live.tab[43]", "live.tab", 0 ],
+			"obj-35::obj-20" : [ "live.tab[49]", "live.tab", 0 ],
+			"obj-202::obj-160::obj-103::obj-218" : [ "live.text[27]", "live.text[2]", 0 ],
+			"obj-41::obj-27" : [ "live.tab[21]", "live.tab", 0 ],
+			"obj-46::obj-27" : [ "live.tab[24]", "live.tab", 0 ],
+			"obj-45::obj-27" : [ "live.tab[27]", "live.tab", 0 ],
+			"obj-44::obj-27" : [ "live.tab[29]", "live.tab", 0 ],
+			"obj-43::obj-54" : [ "live.tab[33]", "live.tab", 0 ],
+			"obj-39::obj-57" : [ "live.tab[11]", "live.tab", 0 ],
+			"obj-40::obj-27" : [ "live.tab[14]", "live.tab", 0 ],
+			"obj-42::obj-27" : [ "live.tab[17]", "live.tab", 0 ],
+			"obj-41::obj-57" : [ "live.tab[19]", "live.tab", 0 ],
+			"obj-46::obj-57" : [ "live.tab[23]", "live.tab", 0 ],
+			"obj-34::obj-20" : [ "live.tab[40]", "live.tab", 0 ],
+			"obj-39::obj-27" : [ "live.tab[12]", "live.tab", 0 ],
+			"obj-45::obj-57" : [ "live.tab[25]", "live.tab", 0 ],
+			"obj-44::obj-57" : [ "live.tab[28]", "live.tab", 0 ],
+			"obj-36::obj-20" : [ "live.tab[46]", "live.tab", 0 ],
+			"obj-43::obj-27" : [ "live.tab[31]", "live.tab", 0 ],
+			"obj-202::obj-159::obj-103::obj-218" : [ "live.text[3]", "live.text[2]", 0 ],
+			"obj-38::obj-21" : [ "live.tab[42]", "live.tab", 0 ],
+			"obj-33::obj-20" : [ "live.tab[38]", "live.tab", 0 ],
+			"obj-37::obj-20" : [ "live.tab[44]", "live.tab", 0 ],
+			"obj-35::obj-21" : [ "live.tab[48]", "live.tab", 0 ],
+			"obj-39::obj-54" : [ "live.tab[1]", "live.tab", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-44::obj-54" : 				{
-					"parameter_longname" : "live.tab[30]"
-				}
-,
-				"obj-43::obj-27" : 				{
-					"parameter_longname" : "live.tab[31]"
-				}
-,
-				"obj-37::obj-21" : 				{
-					"parameter_longname" : "live.tab[45]"
-				}
-,
-				"obj-36::obj-20" : 				{
-					"parameter_longname" : "live.tab[46]"
-				}
-,
-				"obj-32::obj-21" : 				{
-					"parameter_longname" : "live.tab[36]"
-				}
-,
-				"obj-34::obj-20" : 				{
-					"parameter_longname" : "live.tab[40]"
-				}
-,
-				"obj-40::obj-54" : 				{
-					"parameter_longname" : "live.tab[15]"
-				}
-,
-				"obj-31::obj-21" : 				{
-					"parameter_longname" : "live.tab[34]"
-				}
-,
-				"obj-35::obj-21" : 				{
-					"parameter_longname" : "live.tab[48]"
-				}
-,
-				"obj-42::obj-54" : 				{
-					"parameter_longname" : "live.tab[18]"
-				}
-,
-				"obj-38::obj-20" : 				{
-					"parameter_longname" : "live.tab[43]"
-				}
-,
-				"obj-41::obj-27" : 				{
-					"parameter_longname" : "live.tab[21]"
-				}
-,
-				"obj-31::obj-20" : 				{
-					"parameter_longname" : "live.tab[35]"
-				}
-,
-				"obj-46::obj-27" : 				{
-					"parameter_longname" : "live.tab[24]"
-				}
-,
-				"obj-45::obj-27" : 				{
-					"parameter_longname" : "live.tab[27]"
-				}
-,
-				"obj-11::obj-4" : 				{
-					"parameter_longname" : "live.tab[2]"
-				}
-,
-				"obj-33::obj-20" : 				{
-					"parameter_longname" : "live.tab[38]"
-				}
-,
-				"obj-44::obj-27" : 				{
-					"parameter_longname" : "live.tab[29]"
-				}
-,
-				"obj-43::obj-57" : 				{
-					"parameter_longname" : "live.tab[32]"
-				}
-,
-				"obj-36::obj-21" : 				{
-					"parameter_longname" : "live.tab[47]"
-				}
-,
-				"obj-39::obj-57" : 				{
-					"parameter_longname" : "live.tab[11]"
-				}
-,
-				"obj-34::obj-21" : 				{
-					"parameter_longname" : "live.tab[41]"
-				}
-,
-				"obj-44::obj-57" : 				{
-					"parameter_longname" : "live.tab[28]"
-				}
-,
-				"obj-43::obj-54" : 				{
-					"parameter_longname" : "live.tab[33]"
-				}
-,
-				"obj-40::obj-27" : 				{
-					"parameter_longname" : "live.tab[14]"
-				}
-,
-				"obj-42::obj-27" : 				{
-					"parameter_longname" : "live.tab[17]"
-				}
-,
-				"obj-38::obj-21" : 				{
-					"parameter_longname" : "live.tab[42]"
-				}
-,
-				"obj-37::obj-20" : 				{
-					"parameter_longname" : "live.tab[44]"
-				}
-,
-				"obj-39::obj-27" : 				{
-					"parameter_longname" : "live.tab[12]"
-				}
-,
-				"obj-41::obj-57" : 				{
-					"parameter_longname" : "live.tab[19]"
-				}
-,
-				"obj-46::obj-57" : 				{
-					"parameter_longname" : "live.tab[23]"
-				}
-,
-				"obj-32::obj-20" : 				{
-					"parameter_longname" : "live.tab[37]"
-				}
-,
-				"obj-45::obj-57" : 				{
-					"parameter_longname" : "live.tab[25]"
-				}
-,
-				"obj-33::obj-21" : 				{
-					"parameter_longname" : "live.tab[39]"
-				}
-,
 				"obj-40::obj-57" : 				{
 					"parameter_longname" : "live.tab[13]"
 				}
 ,
-				"obj-35::obj-20" : 				{
-					"parameter_longname" : "live.tab[49]"
+				"obj-32::obj-20" : 				{
+					"parameter_longname" : "live.tab[37]"
 				}
 ,
 				"obj-42::obj-57" : 				{
@@ -6854,6 +6767,142 @@
 ,
 				"obj-45::obj-54" : 				{
 					"parameter_longname" : "live.tab[26]"
+				}
+,
+				"obj-44::obj-54" : 				{
+					"parameter_longname" : "live.tab[30]"
+				}
+,
+				"obj-36::obj-21" : 				{
+					"parameter_longname" : "live.tab[47]"
+				}
+,
+				"obj-43::obj-57" : 				{
+					"parameter_longname" : "live.tab[32]"
+				}
+,
+				"obj-40::obj-54" : 				{
+					"parameter_longname" : "live.tab[15]"
+				}
+,
+				"obj-31::obj-21" : 				{
+					"parameter_longname" : "live.tab[34]"
+				}
+,
+				"obj-42::obj-54" : 				{
+					"parameter_longname" : "live.tab[18]"
+				}
+,
+				"obj-31::obj-20" : 				{
+					"parameter_longname" : "live.tab[35]"
+				}
+,
+				"obj-33::obj-21" : 				{
+					"parameter_longname" : "live.tab[39]"
+				}
+,
+				"obj-37::obj-21" : 				{
+					"parameter_longname" : "live.tab[45]"
+				}
+,
+				"obj-34::obj-21" : 				{
+					"parameter_longname" : "live.tab[41]"
+				}
+,
+				"obj-11::obj-4" : 				{
+					"parameter_longname" : "live.tab[2]"
+				}
+,
+				"obj-32::obj-21" : 				{
+					"parameter_longname" : "live.tab[36]"
+				}
+,
+				"obj-38::obj-20" : 				{
+					"parameter_longname" : "live.tab[43]"
+				}
+,
+				"obj-35::obj-20" : 				{
+					"parameter_longname" : "live.tab[49]"
+				}
+,
+				"obj-41::obj-27" : 				{
+					"parameter_longname" : "live.tab[21]"
+				}
+,
+				"obj-46::obj-27" : 				{
+					"parameter_longname" : "live.tab[24]"
+				}
+,
+				"obj-45::obj-27" : 				{
+					"parameter_longname" : "live.tab[27]"
+				}
+,
+				"obj-44::obj-27" : 				{
+					"parameter_longname" : "live.tab[29]"
+				}
+,
+				"obj-43::obj-54" : 				{
+					"parameter_longname" : "live.tab[33]"
+				}
+,
+				"obj-39::obj-57" : 				{
+					"parameter_longname" : "live.tab[11]"
+				}
+,
+				"obj-40::obj-27" : 				{
+					"parameter_longname" : "live.tab[14]"
+				}
+,
+				"obj-42::obj-27" : 				{
+					"parameter_longname" : "live.tab[17]"
+				}
+,
+				"obj-41::obj-57" : 				{
+					"parameter_longname" : "live.tab[19]"
+				}
+,
+				"obj-46::obj-57" : 				{
+					"parameter_longname" : "live.tab[23]"
+				}
+,
+				"obj-34::obj-20" : 				{
+					"parameter_longname" : "live.tab[40]"
+				}
+,
+				"obj-39::obj-27" : 				{
+					"parameter_longname" : "live.tab[12]"
+				}
+,
+				"obj-45::obj-57" : 				{
+					"parameter_longname" : "live.tab[25]"
+				}
+,
+				"obj-44::obj-57" : 				{
+					"parameter_longname" : "live.tab[28]"
+				}
+,
+				"obj-36::obj-20" : 				{
+					"parameter_longname" : "live.tab[46]"
+				}
+,
+				"obj-43::obj-27" : 				{
+					"parameter_longname" : "live.tab[31]"
+				}
+,
+				"obj-38::obj-21" : 				{
+					"parameter_longname" : "live.tab[42]"
+				}
+,
+				"obj-33::obj-20" : 				{
+					"parameter_longname" : "live.tab[38]"
+				}
+,
+				"obj-37::obj-20" : 				{
+					"parameter_longname" : "live.tab[44]"
+				}
+,
+				"obj-35::obj-21" : 				{
+					"parameter_longname" : "live.tab[48]"
 				}
 
 			}
